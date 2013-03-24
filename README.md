@@ -23,6 +23,14 @@ This returns 0, indicating that the number is valid.  If anything other than 0 i
 
 This can be incorporated into any program where a check digit needs to be generated and/or checked for validity.
 
+Author
+
+This script was written by Simon Dulku
+
+Licence
+
+This program is free software; you can redistribute it and/or modify it under the same terms as R itself
+
 Reference
 
 This implementation of the Damm Alogirthm is based on the description and matrix given in the reference
