@@ -19,6 +19,9 @@ DammDigit<-function(x){
   InterimDigit<-0
   for(i in 1:length(DammVector)){
     InterimDigit<-DammMatrix[InterimDigit+1,DammVector[i]+1]
+  'note: +1 is added to the row and column references here because'
+  'R numbers rows and columns 1-10 but the'
+  'algorithm requires them to be numbered 0-9'
   }
   'Return the check digit'
   InterimDigit
